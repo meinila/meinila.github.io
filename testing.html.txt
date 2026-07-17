@@ -1,0 +1,198 @@
+<p>
+    &lt;!DOCTYPE html&gt;
+</p>
+<p>
+    &lt;html lang="en"&gt;
+</p>
+<p>
+    &lt;head&gt;
+</p>
+<p>
+        &lt;meta charset="UTF-8"&gt;
+</p>
+<p>
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+</p>
+<p>
+        &lt;title&gt;🌸 Shoujo Player 🌸&lt;/title&gt;
+</p>
+<p>
+        &lt;link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&amp;family=Quicksand:wght@500;700&amp;display=swap" rel="stylesheet"&gt;
+</p>
+<p>
+        &lt;style&gt;
+</p>
+<p>
+            :root {
+</p>
+<p>
+                --bg-pastel: #fff0f5;
+</p>
+<p>
+                --sidebar-pink: #ffdae9;
+</p>
+<p>
+                --accent-pink: #ffb3d1;
+</p>
+<p>
+                --deep-pink: #ff6699;
+</p>
+<p>
+                --text-dark: #5c3a4d;
+</p>
+<p>
+                --player-bg: #ffffff;
+</p>
+<p>
+            }
+</p>
+<p>
+            * {
+</p>
+<p>
+                box-sizing: border-box;
+</p>
+<p>
+                margin: 0;
+</p>
+<p>
+                padding: 0;
+</p>
+<p>
+                font-family: 'Quicksand', sans-serif;
+</p>
+<p>
+            }
+</p>
+<p>
+            body {
+</p>
+<p>
+                background-color: var(--bg-pastel);
+</p>
+<p>
+                color: var(--text-dark);
+</p>
+<p>
+                height: 100vh;
+</p>
+<p>
+                display: flex;
+</p>
+<p>
+                flex-direction: column;
+</p>
+<p>
+                overflow: hidden;
+</p>
+<p>
+            }
+</p>
+<p>
+            /* The App Layout Wrapper */
+</p>
+<p>
+            .app-container {
+</p>
+<p>
+                display: flex;
+</p>
+<p>
+                flex: 1; /* Takes up all space above the bottom player bar */
+</p>
+<p>
+                height: calc(100vh - 90px);
+</p>
+<p>
+            }
+</p>
+<p>
+            /* 1. SIDEBAR (Diary Tabs) */
+</p>
+<p>
+            .sidebar {
+</p>
+<p>
+                width: 240px;
+</p>
+<p>
+                background-color: var(--sidebar-pink);
+</p>
+<p>
+                border-right: 3px dashed var(--accent-pink);
+</p>
+<p>
+                padding: 30px 20px;
+</p>
+<p>
+                display: flex;
+</p>
+<p>
+                flex-direction: column;
+</p>
+<p>
+                gap: 20px;
+</p>
+<p>
+            }
+</p>
+<p>
+            .logo {
+</p>
+<p>
+                font-family: 'Fredoka', sans-serif;
+</p>
+<p>
+                font-size: 1.6rem;
+</p>
+<p>
+                color: var(--deep-pink);
+</p>
+<p>
+                text-align: center;
+</p>
+<p>
+                margin-bottom: 10px;
+</p>
+<p>
+                text-shadow: 2px 2px 0px #fff;
+</p>
+<p>
+            }
+</p>
+<p>
+            .nav-menu {
+</p>
+<p>
+                list-style: none;
+</p>
+<p>
+                display: flex;
+</p>
+<p>
+                flex-direction: column;
+</p>
+<p>
+                gap: 12px;
+</p>
+<p>
+            }
+</p>
+<p>
+            .nav-item {
+</p>
+<p>
+                padding: 10px 15px;
+</p>
+<p>
+                background: #fff;
+</p>
+<p>
+                border: 2px solid var(--accent-pink);
+</p>
+<p>
+                border-radius: 15px;
+</p>
+<p>
+                cursor
+</p>
